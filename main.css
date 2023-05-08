@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main h1 {
+    font-size: 40px;
+    margin: 20px 0px;
+    font-style: italic;
+}
+
+main form input, button {
+    display: block;
+    width: 400px;
+    padding: 16px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+button {
+    cursor: pointer;
+    background-color: rgb(73, 73, 247);
+    color: white;
+}
