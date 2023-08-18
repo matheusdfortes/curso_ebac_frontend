@@ -1,0 +1,9 @@
+@use 'variables.scss';
+
+.produto {
+    &--emDestaque {
+        border: 2px solid variables.$cor-borda-destaque;
+        padding: 8px;
+        background-color: variables.$cor-destaque;
+    }
+}
